@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        BeniRegular: ['BeniRegular'],
+        BeniBold: ['BeniBold'],
+        BeniLight: ['BeniLight'],
+        BeniBlack: ['BeniBlack'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

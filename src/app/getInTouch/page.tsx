@@ -1,6 +1,6 @@
 const GetInTouch = () => {
     return (
-        <main className="flex min-h-full items-center justify-between p-24">
+        <main className="flex min-h-[50vh] items-center justify-between p-24">
             <div>
                 Get in touch
             </div>
