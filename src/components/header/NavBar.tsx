@@ -9,7 +9,7 @@ const NavBar = () => {
             border-b-2 p-2 border-gray-800 mb-2 invisible md:visible" >
             {DATA_HEADER.map((item) => (
                 <Link
-                    className={`${pathname === item.href ? 'text-white' : 'text-gray-500'} title text-2xl`}
+                    className={`${pathname === item.href ? 'text-white' : 'text-gray-500'} font-beni font-medium text-2xl`}
                     key={item.label}
                     href={item.href}>
                     {item.label.toUpperCase()}

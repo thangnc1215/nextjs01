@@ -9,10 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        BeniRegular: ['BeniRegular'],
-        BeniBold: ['BeniBold'],
-        BeniLight: ['BeniLight'],
-        BeniBlack: ['BeniBlack'],
+        beni: ['var(--font-beni)'],
+        roboto: ['var(--font-roboto)']
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

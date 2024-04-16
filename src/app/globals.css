@@ -2,49 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@font-face {
-  font-family: "BeniBlack";
-  src: url('../fonts/BeniBlack.woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-size: xx-large;
-}
-
-@font-face {
-  font-family: "BeniBold";
-  src: url('../fonts/BeniBold.woff2');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "BeniLight";
-  src: url('../fonts/BeniLight.woff2');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "BeniRegular";
-  src: url('../fonts/BeniRegular.woff2');
-  font-weight: 400;
-  font-style: normal;
-}
-
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: FFFFFF, FFFFFF, 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -58,15 +19,6 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
-
-.title {
-  font-family: 'BeniRegular';
-}
-
-.header {
-  font-family: 'BeniBold';
-  font-size: xx-large;
 }
 
 .input {

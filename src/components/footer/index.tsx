@@ -5,7 +5,7 @@ const FooterComponent = () => {
         <footer className="mb-10" >
             <section className="flex flex-col items-center justify-center md:flex-row">
                 <div className="flex flex-1 item-start">
-                    <span className="text-gray-400">{"BELIEVE "} <span className="text-white font-serif">{"TASMANIA"}</span></span>
+                    <span className="text-gray-400 font-roboto font-light">{"BELIEVE "} <span className="text-white font-serif">{"TASMANIA"}</span></span>
 
                 </div>
                 <p className=" flex flex-1 items-end text-gray-400  text-right ">{"The Tasmanian story began over 60.000 year ago \n We Acknowledge the ancient history of the \n Tasmanian aboriginal people as the First people of the lutruwita/Tasmania."}</p>
